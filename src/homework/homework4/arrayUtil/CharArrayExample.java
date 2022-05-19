@@ -26,7 +26,7 @@ public class CharArrayExample {
         }
 
 //    4.   -----------------------------------------------------------------------------------------------------------------------------
-        char[] bobArray = {'b', 'b', 'b', 'b', 'b', 'b'};
+        char[] bobArray = {'b', 'a', 'b', 'o', 'l', 'a'};
         int indicator = 0;
         for (int i = 0; i < bobArray.length; i++) {
             if (i + 2 < bobArray.length && bobArray[i] == 'b' && bobArray[i + 2] == 'b') {
