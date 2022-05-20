@@ -34,11 +34,11 @@ public class CharArrayExample {
                 indicator++;
             }
         }
-        if (indicator == 0) {
-            System.out.println("4. False");
-        }
         if (indicator>=1){
             System.out.println("4. True");
+        }
+        else{
+            System.out.println("4. False");
         }
 
 //   5.     ---------------------------------------------------------------------------------------------------------------------
