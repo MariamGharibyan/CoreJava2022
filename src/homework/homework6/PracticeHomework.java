@@ -29,10 +29,7 @@ public class PracticeHomework {
     }
 //    ------------------------------------------
     int maxLenght(int[] array1, int[] array2){
-        if(array1.length>array2.length){
-            return array1.length;
-        }
-        return array2.length;
+     return  array1.length>array2.length ? array1.length : array2.length;
     }
 
 
