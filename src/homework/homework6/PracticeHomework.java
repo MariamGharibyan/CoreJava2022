@@ -2,14 +2,12 @@ package homework.homework6;
 
 public class PracticeHomework {
     long convert(int minutes) {
-        long bySeconds = 60 * minutes;
-        return bySeconds;
+        return 60 * minutes;
     }
 
     //    -------------------------------------------------
     int calcAge(int years) {
-        int countOfDays = 365 * years;
-        return countOfDays;
+        return years * 365;
     }
 //   --------------------------------------------
     int nextNumber(int number){
@@ -17,19 +15,14 @@ public class PracticeHomework {
     }
 
 //    ------------------------------------------
-    boolean isSame(int a, int b){
-        if(a==b){
-            return true;
-        }
-        return false;
+    boolean isSame(int a, int b) {
+        return (a == b);
     }
 //    --------------------------------------------------
     boolean lessThanOrEqualToZero(int number){
-        if(number<=0){
-            return true;
+        return  (number<=0);
         }
-        return false;
-    }
+
 //    ------------------------------------------------------
     boolean reverseBool(boolean value) {
         return !value;
